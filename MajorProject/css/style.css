@@ -1,0 +1,261 @@
+body 
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a 
+{
+    text-decoration: none;
+}
+#main 
+{
+    width: 960px;
+    min-height: 650px;
+    border:1px solid black; 
+    margin: 0px auto;
+    /* background-color: #71c5EE; */
+}
+#header 
+{
+    height: 150px;
+    border-bottom: 1px solid black;
+}
+#leftLogo 
+{
+    width: 150px;
+    height: 100%;
+    float: left;
+    background-color: beige;
+}
+#company
+{
+  width: 810px;
+  float: left;
+  background-color: #025091;
+  color:yellow;
+  height: 100%;
+  text-align: center;
+}
+#company h1
+{
+   margin: 10px 0px 0px 0px;
+   font-size: 48px;
+   text-shadow: 2px 2px 10px orange;
+
+
+}
+#company h3
+{
+    margin: 5px 0px;
+    background-color:aliceblue;
+    color:black;
+    padding: 3px;
+    width: 100%;
+    
+}
+#company h1 a
+{
+    color:yellow;
+}
+#leftLogo img ,#rightLogo img 
+{
+    width: 100%;
+    height: 100%;
+}
+#content 
+{
+    min-height: 450px;
+}
+#footer 
+{
+    height: 50px;
+    background-color: #FDBB2D;
+ 
+    color:black;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+}
+#loginDiv 
+{
+    text-align: right;
+    padding: 5px;
+    font-weight: bold;
+}
+#myForm
+{
+    width: 600px;
+    min-height: 250px;
+    background-color: #9DAEFF;
+    border:2px solid black;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 20px;
+}
+#myForm label
+{
+    display: block;
+    margin: 5px 0px;
+   
+}
+#myForm input[type="text"],#myForm input[type="password"],#myForm textarea,#myForm input[type="date"],#myForm select
+{
+  width:95%;
+  font-size: 20px;
+  padding:3px 10px;
+  border:1px solid black;
+  
+}
+#btnGroup 
+{
+    text-align: center;
+}
+#btnGroup input[type='submit'],#btnGroup input[type='reset'],#btnGroup input[type='button']
+{
+    min-width: 100px;
+    height: 40px;
+    border:2px solid black;
+    background-color: #CDB4DB;
+    margin: 20px;
+    font-size: 20px;
+}
+
+#resmsg 
+{
+    background-color: red;
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+}
+#loginInfo
+{
+    text-align: center;
+    line-height: 40px;
+    color:aliceblue;
+    font-weight: bold;
+    font-size: 14px;
+}
+#loginInfo a 
+{
+    color:aqua;
+}
+#parentDashboard
+{
+    background-color:#fcf7b5;
+    width: 100%;
+    height: auto;
+    min-height:450px ;
+}
+#leftDiv
+{
+    background-color: #123456;
+    width: 150px;
+    min-height:800px;
+    display: inline-block;
+    vertical-align: top;
+}
+#rightDiv
+{
+    vertical-align: top;
+    background-color:#fcf7b5;
+    width: 800px;
+    min-height:800px;
+    display: inline-block;
+    
+    margin-right:0px;
+}
+.leftMenu
+{
+   margin: 0px;
+   padding: 0px;
+   
+   list-style: none;
+   font-size: 14px;
+   font-weight: bold;
+   color: white;
+}
+.leftMenu li 
+{
+    padding-left: 5px;
+}
+.leftMenu li a 
+{
+    color:yellow;
+    line-height: 25px;
+    display: block;
+}
+.leftMenu li a:hover 
+{
+    background-color: yellowgreen;
+    color:black;
+
+}
+#carArea
+{
+   padding-left: 20px;
+   
+
+}
+.car_booking_div
+{
+    font-weight: bold;
+    padding: 10px;
+    width: 240px;
+    margin: 20px;
+    min-height: 240px;
+    border:3px solid black;
+    display:inline-block;
+    vertical-align: top;
+    text-align: center;
+    background-color:  #71c5EE ;
+}
+.car_booking_div img 
+{
+    margin:10px 0px;
+}
+#bookingRequest
+{
+    display: block;
+    background-color: #7241FF ;
+    
+    width: 160px;
+    height: 35px;
+    line-height: 35px;
+    margin: 20px auto;
+    border-radius: 0px 15px;
+
+}
+#bookingRequest a 
+{
+    display: block;
+    color: white;
+    line-height: 35px;
+}
+#bookingRequest a:hover
+{
+    background-color: #02FBFF;
+    color: black;
+    border:1px solid black;
+    border-radius: 0px 15px;
+}
+#car_booking_div_detail
+{
+    padding: 10px;
+    width: 440px;
+    margin: 20px auto;
+    min-height: 240px;
+    border:3px solid black;
+    font-weight: bold;
+    text-align: center;
+    line-height: 150%;
+    background-color: #71c5EE;
+   
+}
+#car_booking_div_detail img 
+{
+    margin:10px 0px;
+}
