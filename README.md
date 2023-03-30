@@ -16,8 +16,8 @@ The following technologies were used in building this project:
 >Front-end: HTML, CSS
 >Back-end: PHP , MYSQL
 
-Contributing
+
 Contributions are welcome! If you find a bug or have a suggestion for a new feature, please create an issue on the GitHub repository. If you'd like to contribute code, please fork the repository and create a pull request.
 
 Contact
-If you have any questions or comments about the project, please feel free to contact us at ketanjagat123@gmail.com. We'd love to hear from you!
+If you have any questions or comments about the project, please feel free to contact me at ketanjagat123@gmail.com. We'd love to hear from you!
